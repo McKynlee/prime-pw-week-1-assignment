@@ -1,11 +1,51 @@
 /* Give your page a fun background color */
-
+body {
+  background-color: #097e8f;
+  margin: 0;
+}
 /* Make the header and footer a different color from the background */
-
+h1, footer {
+  background-color: #5f0746;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
 /* Align the h1 containing your name in the center of the header*/
 
+.cubaR {
+  color: red;
+}
+
+.cubaB {
+  color: blue;
+}
 /* Make your p tag a different color and italic */
-
+p {
+font-style: italic;
+font-size: 26px;
+}
 /* Put a border around your image */
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.ride {
+  border: 3px solid white;
+  margin-right: 10px;
+}
+
+.snow {
+  border: 3px solid white;
+  margin-left: 10px;
+}
+
+.worm, .italy {
+  width: 10%;
+}
 /* Change the font-family of your list */
+ul {
+  font-family: "Chalkduster", sans-serif;
+}
